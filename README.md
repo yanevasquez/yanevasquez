@@ -1,5 +1,3 @@
-### Hi there 👋
-
 <div align="center">
   
 ![metrics](https://github.com/yanevasquez/yanevasquez/blob/main/github-metrics.svg)
