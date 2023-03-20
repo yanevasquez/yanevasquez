@@ -13,11 +13,10 @@ jobs:
         with:
         # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
-        # GITHUB_TOKEN is a special auto-generated token used for commits          
           user: yanevasquez
-          template: classic
+          template: terminal
           base: header, activity, community, repositories, metadata
-          config_timezone: 	America/Fortaleza
+          config_timezone: America/Fortaleza
           plugin_stars: yes
           plugin_achievements: yes
           plugin_achievements_display: detailed
