@@ -14,7 +14,7 @@ jobs:
         # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
           user: yanevasquez
-          template: terminal
+          template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/Fortaleza
           plugin_stars: yes
